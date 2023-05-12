@@ -1,0 +1,12 @@
+# Correccion-TP-funcional-1
+
+
+areaT :: Float -> Float -> Float
+areaT b h = (b*h)/ 2.0
+
+
+esBisiesto :: Int -> Bool
+  esBisisesto x = mod x 400 == 0 || (mod x 4 == 0 && mod x 100 /= 0)
+
+potencia :: Double -> Integer -> Double
+potencia numero potencia = numero^potencia
